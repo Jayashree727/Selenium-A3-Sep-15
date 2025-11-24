@@ -1,3 +1,8 @@
+def changecase(func):
+  def myinner():
+    return func().upper()
+  return myinner
+
 class Template:
 
 for i in range(1, 10):
